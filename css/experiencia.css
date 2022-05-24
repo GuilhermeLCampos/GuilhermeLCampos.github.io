@@ -67,12 +67,20 @@
   .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
+    position: relative;
   }
   .experiencia .subtitulo {
     color: #141414;
   }
   .decor {
     background-image: none;
+  }
+  .empresa-ano {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    color: #525252;
+    font-size: 0.875rem;
   }
 }
 @media (max-width: 350px) {
@@ -84,5 +92,12 @@
   }
   .empresa {
     padding: 10px;
+  }
+  .empresa-ano {
+    position: absolute;
+    top: 160px;
+    left: 220px;
+    color: #141414;
+    font-size: 0.875rem;
   }
 }
